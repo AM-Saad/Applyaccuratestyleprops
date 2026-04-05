@@ -1,0 +1,28 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+
+/* Map Satoshi font variants to the custom font-family names used in Figma export */
+@font-face {
+  font-family: 'Satoshi:Regular';
+  src: local('Satoshi Regular'), local('Satoshi');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi:Medium';
+  src: local('Satoshi Medium'), local('Satoshi');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi:Bold';
+  src: local('Satoshi Bold'), local('Satoshi');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Also define standard Satoshi for general use */
+* {
+  font-family: 'Satoshi', sans-serif;
+}
